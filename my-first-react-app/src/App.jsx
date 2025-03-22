@@ -3,15 +3,16 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+//creating movie cards
 const Card = ({ title }) => {
 	const [count, setCount] = useState(0);
 	const [hasLiked, setHasLiked] = useState(false);
 	useEffect(() => {
 		console.log(`${title} movie has been liked: ${hasLiked}`);
 	}, [hasLiked]);
-	useEffect(() => {
-		console.log("card rendered");
-	}, []);
+
+	useEffect();
+
 	return (
 		<div
 			className="card"
