@@ -1,3 +1,4 @@
+//MAIN APP
 import React from "react";
 import Search from "./components/Search";
 import { useEffect, useState } from "react";
